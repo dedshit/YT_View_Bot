@@ -15,7 +15,5 @@ python3 viewbot.py
 # Installing requirement
 
  easy_install requests
- 
-      (or)
-      
- pip install requests
+     (or)   
+     pip install requests
