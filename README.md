@@ -12,4 +12,10 @@ python3 viewbot.py
 
 ● random
 
- easy_install requests > to install requests module
+# Installing requirement
+
+ easy_install requests
+ 
+      (or)
+      
+ pip install requests
