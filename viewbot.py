@@ -1,15 +1,25 @@
 #!/usr/bin/python3
-
+import random
+from bs4 import BeautifulSoup as pi
 import requests as R
-import random 
 
 class test:
-
     def __init__(self, proxy, url):
         self.proxy = proxy
         self.url = url
-
-    def test(self):       
+    def views(self):
+        Z = R.get(self.url)
+        X = pi(Z.content.decode('utf-8'), 'html5lib')
+        V = X.find_all("script")[13].text
+        a2 = []
+        for i in V.split(','):
+            if "viewCount" in i:
+                a2.append(i)
+        b5 = a2[0]
+        bg = b5.replace("\\", "")
+        bn = bg[13:-1]
+        print("\n Current Views: ", bn)
+    def test_proxy(self):
         a = R.get(self.proxy)
         b = a.content.decode('utf-8')
         p = [
@@ -30,21 +40,21 @@ class test:
                 while True:
                     for o in range(1, 10):
                         U = random.choice(p)
-                    h = { "User-Agent":U }
-                    print ("--------")
+                    h = {"User-Agent":U}
+                    print("--------")
                     try:
                         rr = R.get(self.url, headers=h)
                         if rr.status_code == 200:
-                            print ("Ok")
+                            print("Ok")
                     except R.exceptions.ConnectionError:
-                        print ("Retrying...")
+                        print("Retrying...")
             except R.exceptions.Timeout:
-                print ('')
+                print('')
             except R.exceptions.ChunkedEncodingError:
-                print ('connection error!')
+                print('connection error!')
             except KeyboardInterrupt:
-                print ('Quitting..')
-                
+                print('Quitting..')
 q = input('\n Enter video url : ')
-q1 = test("https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=5000&country=all&ssl=yes&anonymity=elite", q)
-q1.test()
+q1 = test("https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=2000&country=all&ssl=yes&anonymity=elite", q)
+q1.test_proxy()
+q1.views()
