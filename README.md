@@ -1,5 +1,5 @@
 # YT_View_Bot
-Increasing views just by rotating proxy 🎛
+Increasing views and watchtime just by rotating proxy 🎛
 
 # Requirement
 Python3
@@ -7,7 +7,7 @@ Python3
 # Usage
 python3 viewbot.py
 
-# Module used
+# Modules used
 ● requests
 
 ● random
