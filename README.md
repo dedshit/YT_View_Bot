@@ -17,3 +17,8 @@ python3 viewbot.py
  easy_install requests
      (or)   
      pip install requests
+
+# contributors:
+ ●  Ragava DK
+ ●  dedshit (@°)
+ 
