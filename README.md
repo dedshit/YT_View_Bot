@@ -1,25 +1,31 @@
 # YT_View_Bot
 Increasing views and watchtime just by rotating proxy 🎛
 
-# Requirement
+# Requirement:
 Python3
 
-# Usage
+# Usage:
 python3 viewbot.py
 
-# Modules used
+# Modules used:
 ● requests
 
 ● random
 
-# Installing requirement
+● BeautifulSoup4
 
- easy_install requests
+# Installing requirement:
+
+ easy_install requests BeautifulSoup4
      (or)   
-     pip install requests
+     pip install requests ("")
 
 # contributors:
  ●  Ragava DK
  
  ●  dedshit (@°)
  
+# Note:
+  Discontinued support for mobile link
+      (https://youtu.be/6Af6b_wyiwI) ❌
+      (https://www.youtube.com/watch?v=6Af6b_wyiwI) ✅✔
