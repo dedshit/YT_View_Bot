@@ -25,6 +25,11 @@ python3 viewbot.py
  
  ●  dedshit (@°)
  
+# Contact:
+ Ragava DK ~ wa.me/919080876932
+ 
+ Dedshit(@°) ~ wa.me/918428425154
+ 
 # Note:
   Discontinued support for mobile link
   
