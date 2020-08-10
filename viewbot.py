@@ -15,9 +15,8 @@ class test:
             if "viewCount" in i:
                 a2.append(i)
         b5 = a2[0]
-        bg = b5.replace("\\", "")
-        bn = bg[13:-1]
-        print("\n Current Views: ", bn)       
+        bg = b5.replace("\\", "")[13:-1]
+        print("\n Current Views: ", bg)       
     def test_proxy(self):
         a = R.get(self.proxy)
         b = a.content.decode('utf-8')
@@ -54,14 +53,14 @@ class test:
                         rr = R.get(self.url, headers=h, allow_redirects=False)
                         if rr.status_code == 200:
                             print("Ok")
-                    except R.exceptions.ConnectionError:
-                        print("Retrying...")
-            except R.exceptions.Timeout:
-                print('')
+                        else:
+                            print("retrying..")
+                    except R.exceptions.Timeout:
+                        print('')
             except R.exceptions.ChunkedEncodingError:
                 print('connection error!')
             except KeyboardInterrupt:
-                print('Quitting..')               
+                print('Quitting..')                            
 q = input('\n Enter video url : ')
 q1 = test("https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=2000&country=all&ssl=yes&anonymity=elite", q)
 q1.test_proxy()
