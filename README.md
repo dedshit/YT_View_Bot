@@ -1,5 +1,5 @@
 # YT_View_Bot
-Increasing views and watchtime just by rotating proxy 🎛
+Increasing views and watchtime just by rotating proxy 🎛 / your IP address
 
 # Requirement:
 Python3
