@@ -26,7 +26,10 @@ python3 viewbot.py
  ●  dedshit (@°)
  
 # Contact:
- Ragava DK ~ wa.me/919080876932
+ Ragava DK ~ wa.me/919080876932 
+
+[Subscribe to All new Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
+
  
  Dedshit(@°) ~ wa.me/918428425154
  
