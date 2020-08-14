@@ -1,4 +1,4 @@
-# YT_View_Bot
+# YT_View_Bot v1.0.s
 Increasing views and watchtime just by rotating proxy 🎛 / your network provider IP address
 
 # Requirement:
