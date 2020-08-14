@@ -12,13 +12,13 @@ python3 viewbot.py
 
 ● random
 
-● BeautifulSoup4
+● bs4
 
 # Installation:
 
- easy_install requests BeautifulSoup4
+ easy_install requests bs4
      (or)   
-     pip install requests ("")
+     pip install (" ")
 
 # contributors:
  ●  Ragava DK
