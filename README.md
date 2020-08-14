@@ -14,7 +14,7 @@ python3 viewbot.py
 
 ● BeautifulSoup4
 
-# Installing requirement:
+# Installation:
 
  easy_install requests BeautifulSoup4
      (or)   
