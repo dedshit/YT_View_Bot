@@ -22,7 +22,7 @@ class test:
     def Main(self):
         try:
             while True:
-                for o in range(1, 10):
+                for o in range(1, 78):
                     U = random.choice(H.head)
                 h = {
                     "User-Agent":U,
