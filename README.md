@@ -38,4 +38,4 @@ python3 viewbot.py
   
       (https://youtu.be/6Af6b_wyiwI) ❌
       
-      (https://www.youtube.com/watch?v=6Af6b_wyiwI) ✅✔
+      (https://www.youtube.com/watch?v=6Af6b_wyiwI) ✅
