@@ -5,7 +5,7 @@ Increasing views and watchtime just by rotating proxy 🎛 / your network provid
 Python3
 
 # Usage:
-python3 viewbot.py
+python3 viewbot_1.py
 
 # Modules used:
 ● requests
@@ -20,10 +20,8 @@ python3 viewbot.py
      (or)   
      pip install (" ")
 
-# contributors:
+# contributor:
  ●  Ragava DK
- 
- ●  dedshit (@°)
  
 # Contact:
  Ragava DK ~ wa.me/919080876932 
