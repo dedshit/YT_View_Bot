@@ -1,6 +1,6 @@
 # YT_View_Bot v1.0.s          [![CodeFactor](https://www.codefactor.io/repository/github/dedshit/yt_view_bot/badge)](https://www.codefactor.io/repository/github/dedshit/yt_view_bot)
 
-Increase views and watchtime just by rotating proxy 🎛 / your network provider IP address
+Increase views and watchtime just by rotating proxy 🎛 & your network provider IP address
 
 # Requirement
 Python3
