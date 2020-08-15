@@ -2,29 +2,29 @@
 
 Increase views and watchtime just by rotating proxy 🎛 / your network provider IP address
 
-# Requirement:
+# Requirement
 Python3
 
-# Usage:
+# Usage
 python3 viewbot_1.py
 
-# Modules used:
+# Modules used
 ● requests
 
 ● random
 
 ● bs4
 
-# Installation:
+# Installation
 
  easy_install requests bs4
      (or)   
      pip install (" ")
 
-# contributor:
+# contributor
  ●  Ragava DK
  
-# Contact:
+# Contact
  Ragava DK ~ wa.me/919080876932 
 
 [Subscribe to All new Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
@@ -32,7 +32,7 @@ python3 viewbot_1.py
  
  Dedshit(@°) ~ wa.me/918428425154
  
-# Note:
+# Note
   Discontinued support for mobile link
   
       https://youtu.be/6Af6b_wyiwI ❌
