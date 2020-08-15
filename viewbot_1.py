@@ -7,7 +7,6 @@ import headers as H
 class test:
     def __init__(self, url):
         self.url = url
-        
     def views(self):
         Z = R.get(self.url)
         X = pi.BeautifulSoup(Z.content.decode('utf-8'), 'html5lib')
@@ -18,7 +17,7 @@ class test:
                 a2.append(i)
         b5 = a2[0].replace("\\", "")[13:-1]
         print("\n Current Views: ", b5)
-        
+
     def Main(self):
         try:
             while True:
