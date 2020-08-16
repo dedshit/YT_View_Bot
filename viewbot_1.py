@@ -34,7 +34,7 @@ class test:
                     "TE":"Trailers"
                 }
                 print("--------")
-                rr = R.get(self.url, headers=h, allow_redirects=False)
+                rr = R.get(self.url, headers=h, allow_redirects=False, timeout=10)
                 if rr.status_code == 200:
                     print("Ok")
                 else:
