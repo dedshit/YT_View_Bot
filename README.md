@@ -21,14 +21,9 @@ python3 viewbot_1.py
  easy_install requests bs4 html5lib
      (or)   
      pip install (" ")
-
-# contributor
- ●  Ragava DK
  
 # Contact
- Ragava DK ~ wa.me/919080876932 
-
-[Subscribe to All new Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
+ Ragava DK ~ wa.me/919080876932        《[Subscribe to All new Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)》
 
  Dedshit(@°) ~ wa.me/918428425154
  
