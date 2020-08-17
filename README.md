@@ -33,3 +33,9 @@ python3 viewbot_1.py
       https://youtu.be/6Af6b_wyiwI ❌
       
       https://www.youtube.com/watch?v=6Af6b_wyiwI ✅
+      
+         
+| Version |           |
+| ------- | ----------|
+| v1.0.1  | :white_check_mark: |
+| v1.0.!  | :x:                |
