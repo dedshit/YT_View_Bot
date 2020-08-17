@@ -18,7 +18,7 @@ class test:
         b5 = a2[0].replace("\\", "")[13:-1]
         print("\n Current Views: ", b5)
 
-    def Main(self):
+    def main(self):
         try:
             while True:
                 for o in range(1, 78):
@@ -45,5 +45,5 @@ class test:
             print('Quitting..')                            
 q = input('\n Enter video url : ')
 q1 = test(q)
-q1.Main()
+q1.main()
 q1.views()
