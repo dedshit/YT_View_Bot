@@ -14,9 +14,11 @@ python3 viewbot_1.py
 
 ● bs4
 
+● html5lib
+
 # Installation
 
- easy_install requests bs4
+ easy_install requests bs4 html5lib
      (or)   
      pip install (" ")
 
