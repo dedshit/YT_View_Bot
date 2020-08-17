@@ -2,6 +2,7 @@
 import random
 import bs4 as pi
 import requests as R
+from requests.exceptions import ConnectionError
 import headers as H
 
 class test:
@@ -39,8 +40,8 @@ class test:
                     print("Ok")
                 else:
                     print("retrying..")
-        except R.exceptions.ChunkedEncodingError:
-            print('connection error!')
+        except ConnectionError:
+            print('Network error!')
         except KeyboardInterrupt:
             print('Quitting..')                            
 q = input('\n Enter video url : ')
