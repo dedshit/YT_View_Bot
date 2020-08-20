@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6362c8fd45644015a31311ecd1e251b6)](https://app.codacy.com/manual/dedshit/YT_View_Bot?utm_source=github.com&utm_medium=referral&utm_content=dedshit/YT_View_Bot&utm_campaign=Badge_Grade_Dashboard)        [![CodeFactor](https://www.codefactor.io/repository/github/dedshit/yt_view_bot/badge)](https://www.codefactor.io/repository/github/dedshit/yt_view_bot)
+[![CodeFactor](https://www.codefactor.io/repository/github/dedshit/yt_view_bot/badge)](https://www.codefactor.io/repository/github/dedshit/yt_view_bot)
 # YT_View_Bot v1.0.2
 
 No Proxies involved lol
